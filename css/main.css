@@ -1,0 +1,22 @@
+@import url(‘https://fonts.googleapis.com/css?family=Maven+Pro|Roboto:700i&display=swap’);
+@import url(http://getwallpapers.com/wallpaper/full/2/e/a/176785.jpg);
+html{
+  scroll-behavior: smooth;
+/** Font Sets **/
+    --font-a: ‘aria-text-g2’, sans-serif;
+    --font-b: ‘Roboto’, sans-serif;
+/** Background Colours **/
+    --primary: #26272b;
+    --primary-a: #eeeeee;
+    --primary-b: #FFFFFF;
+    --secondary: #4c4f56;
+    --secondary-a: #522626;
+    --error: #000000;
+    --links: #4da4a4;
+ }
+
+ body{
+    font-family: aria-text-g2,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ }
