@@ -1,12 +1,12 @@
-@import url(‘https://fonts.googleapis.com/css?family=Maven+Pro|Roboto:700i&display=swap’);
+/* @import url(‘https://fonts.googleapis.com/css?family=Maven+Pro|Roboto:700i&display=swap’);
 @import url(http://getwallpapers.com/wallpaper/full/2/e/a/176785.jpg);
 html{
   scroll-behavior: smooth;
 /** Font Sets **/
-    --font-a: ‘aria-text-g2’, sans-serif;
+    /* --font-a: ‘aria-text-g2’, sans-serif;
     --font-b: ‘Roboto’, sans-serif;
-/** Background Colours **/
-    --primary: #26272b;
+* Background Colours * */
+    /* --primary: #26272b;
     --primary-a: #eeeeee;
     --primary-b: #FFFFFF;
     --secondary: #4c4f56;
@@ -31,4 +31,58 @@ main h2 {
     font-weight: 400;
     font-style: normal;
     transition: 0.3s all;
- }
+ } */ */
+
+
+ /* Style the form */
+ #regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+  }
+  
+  /* Style the input fields */
+  input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+  }
+  
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  /* Mark the active step: */
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #4CAF50;
+  }
+
+
+
